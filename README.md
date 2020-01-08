@@ -21,7 +21,8 @@ The result curve shows that ensemble model performs the best compared with each 
 
 
 ### How to run
-Training and testing dataset could be downloaded using the link 'https://drive.google.com/drive/folders/1Hhvy6d8OgTFonaF4orrzWVXAlO8NjHlF?usp=sharing'. Put these two files in './data' directory.  
+Training and testing dataset could be downloaded using the link https://drive.google.com/drive/folders/1Hhvy6d8OgTFonaF4orrzWVXAlO8NjHlF?usp=sharing.  
+Put these two files in './data' directory.  
 Clone the repository into local. Run 'run.sh', this will generate 'tfidf_dm_dbow_20W.csv'
 
 ### Dependency

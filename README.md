@@ -13,8 +13,10 @@ It has 5 columns and 100k+ rows. The categorical features has already been trans
 To test the behaviors of different models in Chinese words, we tried JIEBA, NLPIR, THULC to predict a simple task on the dataset. JIEBA has the best performance in prediction. To generate our effective dictionary, we used Bigrams model and filtered those words of frequency less than 5. 
 
 ### Machine Learning Models
-![Model Snapshot](model snapshot.png)
+![Model Snapshot](https://github.com/caoyr03/search-query-user-portrait/blob/master/model%20snapshot.png)
 We created a stacking ensemble model to take full advantage of predictions from base models. For the base layer of our model, we generated three classifiers, Logistic Regression using TF-IDF, Neural Network using DM, and Neural Network using DBOW. These combinations of word vectors and ML models perform relatively the highest accuracy on prediction task. After feeding the classfiers into stacking ensemble, we then run a XGBoost model as the final output. 
+![Result Curve](https://github.com/caoyr03/search-query-user-portrait/blob/master/result%20curve.png)
+The result curve shows that ensemble model performs the best compared with each of the three base models along.
 
 
 

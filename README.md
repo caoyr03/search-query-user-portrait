@@ -4,7 +4,7 @@
 This dataset is users' search query history within 1 month. It is collected by Sougou, a popular search engine in China.  
 It has 5 columns and 100k+ rows. The categorical features has already been transformed into numerical data.
 * ID: Encoded User ID
-* Age: 0 (unknown) 1 (0~18) 2 (19~23) 3 (24~30) 4 (31~40) 5 (41~50) 
+* Age: 0 (unknown) 1 (0-18) 2 (19-23) 3 (24-30) 4 (31-40) 5 (41-50) 
 * Gender: 0 (unknown) 1 (Male) 2 (Female)
 * Education: 0 (unknown) 1 (Phd) 2 (Master) 3 (Bachelor) 4 (High School) 5 (Junior High School and under)
 * Search Query: A list of tuples of search queries
